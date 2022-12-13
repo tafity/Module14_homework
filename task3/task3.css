@@ -1,0 +1,46 @@
+body {
+    background: #8990ec;
+    box-sizing: border-box;
+}
+.input {
+    width: 175px;
+    margin-left: 550px;
+    margin-top: 300px;
+    margin-bottom: 40px;
+    outline-style: dashed;
+    outline-width: 1px;
+    outline-color: blanchedalmond;
+    height: 20px;
+}
+
+textarea:focus, input:focus
+{
+    outline: none;
+}
+.number {
+    margin-left: 610px;
+    width: 60px;
+    background-color: lightblue;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    border: none;
+}
+.result {
+    padding-left: 520px;
+    padding-top: 20px;
+    color: aliceblue;
+    width: 200px;
+    height: 200px;
+    white-space: nowrap;
+}
+.card {
+    width: 200px;
+    margin: 20px;
+  }
+  
+  .card-image {
+    display: block;
+    width: 200px;
+    height: 150px;
+  }
