@@ -6,7 +6,7 @@
 где get-параметр limit — это введённое число.
 Пример. Если пользователь ввёл 5, то запрос будет вида: https://picsum.photos/v2/list?limit=5.
 После получения данных вывести ниже картинки на экран. */
-const inputValue = document.getElementById('input').value;
+
 const button = document.querySelector ('button');
 let result = document.querySelector ('.result');
 
@@ -44,11 +44,12 @@ function displayResult(apiData) {
 result.innerHTML = cards
 };
 button.addEventListener('click', () => {
+  const inputValue = document.getElementById('input').value;
     if (!(inputValue >= 1 && inputValue <= 10)) {
         result.textContent = 'число вне диапазона от 1 до 10'
         //console.log (inputValue.value)
         return;
     }else {
-        useRequest(`https://picsum.photos/v2/list?limit=${valueNode}`, displayResult);
+        useRequest(`https://picsum.photos/v2/list?limit=${inputValue}`, displayResult);
   }
 })

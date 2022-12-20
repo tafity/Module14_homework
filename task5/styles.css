@@ -1,0 +1,52 @@
+body, html {
+    box-sizing: border-box;
+    margin: 0 auto;
+    background-color: black;
+    font-family: 'Caveat', Arial, Helvetica, sans-serif;
+}
+.text {
+    font-family: 'Caveat';
+    color: gold;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+button {
+    background-color: black;
+    /*border-radius: 30px;*/
+    border-color: gold;
+    border-width: 0.01rem;
+    border-style: groove;
+    color: gold;
+    cursor: pointer;
+    font-weight: 100;
+    font-family: 'Caveat';
+    font-size: 12px;
+}
+input {
+    background-color: gold;
+    outline: none;
+    border-color: black;
+  
+}
+.inputs {
+    margin-left: 550px;
+}
+
+textarea{
+    font-family: 'Caveat';
+}
+button {
+    margin-left: 610px;
+    margin-top: 20px;
+}
+.result {
+    color: red;
+    padding-left: 510px;
+    padding-top: 20px;
+}
+img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: -50px;
+}
